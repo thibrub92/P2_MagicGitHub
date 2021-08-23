@@ -25,8 +25,8 @@ public class FakeApiService implements ApiService {
      * @return
      */
     @Override
-    public boolean generateRandomUser() {
-        return users.add(User.random());
+    public void generateRandomUser() {
+         users.add(User.random());
     }
     /**
      * Delete a {@link User} from the {@link FakeApiService#users} list.

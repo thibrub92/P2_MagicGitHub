@@ -5,6 +5,6 @@ import java.util.List;
 
 public interface ApiService {
     List<User> getUsers();
-    boolean generateRandomUser();
+    void generateRandomUser();
     void deleteUser(User username);
 }
